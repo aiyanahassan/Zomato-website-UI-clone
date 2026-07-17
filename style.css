@@ -1,0 +1,462 @@
+* {
+  margin: 0px;
+  padding: 0px;
+
+}
+
+.first {
+  background-image: url("zpic1.2.avif");
+  width: 100%;
+  position: relative;
+  height: 58vh;
+  overflow: hidden;
+  background-repeat: none;
+  background-position: center center;
+  background-repeat: none;
+  background-size: max(1000px, 100vw);
+
+}
+
+nav {
+  background: transparent;
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+  font-size: 20px;
+  z-index: 4;
+  color: white;
+
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+
+div ul {
+  display: flex;
+  list-style-type: none;
+  justify-content: space-around;
+
+}
+
+.second {
+  /* display: flex;
+    color:rgb(200, 200, 200);
+    justify-content: center;
+    height: 130px;
+    image-rendering: smooth;
+    */
+  display: flex;
+  justify-content: center;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 900;
+  font-size: 95px;
+  font-style: italic;
+  padding: 20px;
+
+}
+
+.third {
+  color: white;
+  display: flex;
+  justify-content: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 40px;
+}
+
+.fourth {
+  display: flex;
+  justify-content: center;
+  padding: 50px;
+  color: white;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: stretch;
+  -webkit-box-align: center;
+
+
+
+}
+
+.location img {
+  height: 15px;
+
+}
+
+.location {
+  display: flex;
+  background-color: white;
+  padding: 10px;
+  color: gray;
+  font-family: Arial, Helvetica, sans-serif;
+  justify-content: space-between;
+  width: 200px;
+  box-shadow: rgba(28, 28, 28, 0.08) 0px 2px 8px;
+  border: 1px solid rgb(232, 232, 232);
+  border-radius: 15px 0px 0px 15px;
+
+}
+
+.search {
+  background-color: white;
+  color: gray;
+  padding: 0px;
+  width: 110px;
+  border: none;
+  font-size: 1.4rem;
+  margin-right: 410px;
+  border-radius: 0;
+
+}
+
+.search input {
+  padding: 15px;
+  width: 510px;
+  border-radius: 15px;
+  box-shadow: rgba(28, 28, 28, 0.08) 0px 2px 8px;
+  border: 1px solid rgb(232, 232, 232);
+}
+
+.niche {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  margin: 10px;
+}
+
+.order-online img {
+  width: 350px;
+  height: 190px;
+  border-radius: 20px 20px 0 0;
+
+}
+
+.dining img {
+  width: 350px;
+  height: 190px;
+  padding: o;
+  border-radius: 20px 20px 0 0;
+}
+
+.live-events img {
+  width: 350px;
+  height: 190px;
+  padding: o;
+  border-radius: 20px 20px 0 0;
+}
+
+.order-online {
+  background: linear-gradient(to right, rgb(248, 248, 248) 0%, rgb(255, 255, 255) 10%, rgb(248, 248, 248) 40%, rgb(248, 248, 248) 100%) no-repeat rgb(248, 248, 248);
+  margin-left: 20px;
+  padding-right: 30px;
+
+
+}
+
+.order-online div {
+  position: absolute;
+
+
+}
+
+.order-online h2,
+.dining h2,
+.live-events h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 25;
+  color: rgb(54, 54, 54);
+  padding-top: 10px;
+
+}
+
+.dining,
+.order-online,
+.live-events {
+  padding-right: 30px;
+  color: rgb(79, 79, 79);
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.jaipur {
+  display: flex;
+  justify-content: center;
+}
+
+.collection {
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: 1.5px;
+  font-weight: 100;
+  font-size: x-large;
+  padding: 40px;
+  background-color: rgb(248, 248, 248);
+  margin: 10px;
+
+}
+
+h2 {
+  font-weight: 100;
+  letter-spacing: 1.5px;
+}
+
+.heading {
+  display: flex;
+  justify-content: space-between;
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: 0.7px;
+  color: rgb(54, 54, 54);
+  padding: 20px;
+  margin-top: 40px;
+
+}
+
+.jaipur {
+  display: flex;
+  /* justify-content: end; */
+  color: red;
+  letter-spacing: 0.2px;
+}
+
+.niche_two {
+  display: flex;
+  justify-content: space-around;
+  justify-items: center;
+  padding-left: 70px;
+  padding-right: 70px;
+
+}
+
+.town {
+
+  height: 400px;
+  width: 300px;
+
+  background: linear-gradient(0deg,
+      rgba(0, 0, 0, 0.9) 0%,
+      rgba(0, 0, 0, 0.05) 50%,
+      rgba(0, 0, 0, 0.05) 85%),
+    url(zpic4.avif);
+  background-size: cover;
+  background-position: center;
+  border-radius: 8px;
+
+  /* object-fit:fill;->it does not work on background images */
+
+}
+
+.town .one {
+  font-size: 25px;
+  font-weight: 10;
+  color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: baseline;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.8rem;
+  padding-top: 330px;
+  padding-left: 10px;
+  font-size: 1.4rem;
+
+}
+
+.town .two {
+  color: rgb(255, 255, 255);
+  padding-left: 10px;
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.2rem;
+}
+
+.spots {
+  height: 400px;
+  width: 300px;
+  background: linear-gradient(0deg,
+      rgba(0, 0, 0, 0.9) 0%,
+      rgba(0, 0, 0, 0.05) 50%,
+      rgba(0, 0, 0, 0.05) 85%),
+    url(zpic5.avif);
+  background-size: cover;
+  background-position: center;
+  border-radius: 8px;
+}
+
+.spots .one {
+  color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: baseline;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.8rem;
+  padding-top: 330px;
+  padding-left: 10px;
+  font-size: 1.4rem;
+
+}
+
+.spots .two {
+  color: rgb(255, 255, 255);
+  padding-left: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.2rem;
+}
+
+.places {
+  height: 400px;
+  width: 300px;
+  background: linear-gradient(0deg,
+      rgba(0, 0, 0, 0.9) 0%,
+      rgba(0, 0, 0, 0.05) 50%,
+      rgba(0, 0, 0, 0.05) 85%),
+    url(zpic6.avif);
+  background-size: cover;
+  background-position: center;
+  border-radius: 8px;
+}
+
+.places .one {
+  color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: baseline;
+  font-size: 10;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.8rem;
+  padding-top: 330px;
+  padding-left: 10px;
+  font-size: 1.4rem;
+}
+
+.places .two {
+  color: rgb(255, 255, 255);
+  padding-left: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.2rem;
+}
+
+.insta {
+  height: 400px;
+  width: 300px;
+
+  background: linear-gradient(0deg,
+      rgba(0, 0, 0, 0.9) 0%,
+      rgba(0, 0, 0, 0.05) 50%,
+      rgba(0, 0, 0, 0.05) 85%),
+    url(zpic7.avif);
+  background-size: cover;
+  background-position: center;
+  border-radius: 8px;
+}
+
+.insta .one {
+  color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: baseline;
+  font-size: 10;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.4rem;
+  padding-top: 330px;
+  padding-left: 10px;
+}
+
+.insta .two {
+  color: rgb(255, 255, 255);
+  padding-left: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.2rem;
+}
+
+.niche_three {
+  color: rgb(156, 156, 156);
+  padding-top: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.niche_three .ul {
+  display: flex;
+  justify-content: center;
+  justify-items: flex-start;
+
+}
+
+.niche_three li {
+  border: 1px solid rgb(207, 207, 207);
+  box-shadow: rgba(54, 54, 54, 0.06) 0px 1px 2px;
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 8px;
+
+}
+
+.niche_four img {
+  width: 90%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  padding-left: 60px;
+  padding-top: 20px;
+}
+
+.niche_four {
+  padding-top: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 40px;
+  padding-left: 50px;
+  letter-spacing: 1px;
+}
+
+.niche_five {
+
+  display: flex;
+  justify-content: space-around;
+  padding-top: 20px;
+  padding-left: 80px;
+  padding-right: 80px;
+  margin: 10px;
+
+}
+
+.blackout img {
+  width: 365px;
+  height: 255px;
+  border-radius: 20px;
+}
+
+.merlot img {
+  width: 365px;
+  height: 255px;
+  border-radius: 20px;
+}
+
+.knighthouse img {
+  width: 365px;
+  height: 255px;
+  border-radius: 20px;
+
+}
+
+.merlot,
+.blackout,
+.knighthouse {
+  color: rgb(28, 28, 28);
+  font-family: Arial, Helvetica, sans-serif;
+  /* padding: 20px;
+  margin: 20px; */
+
+}
+
+.merlot span,
+.knighthouse span,
+.blackout span {
+  display: inline;
+  justify-content: space-between;
+  color: rgb(105, 105, 105);
+  /* padding-top: 20px; */
+}
+
+.merlot .up,
+.blackout .up,
+.knighthouse .up {
+  padding-top: 20px;
+}
+
+.merlot .down {
+  padding: bottom 20px;
+}
